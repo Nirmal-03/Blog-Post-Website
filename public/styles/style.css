@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+SA+Beginner:wght@700&family=Lilita+One&family=Offside&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Sacramento&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#title {
+  background-color: #7743db;
+  text-align: center;
+  padding: 30px 0;
+  color: #ffff;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.create{
+    padding: 40px 0 40px 40px;
+}
+.create a{
+    background-color: #F875AA;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding: 50px 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 20px;
+}
+.container h1,h2,h4,p{
+    margin: 30px 0;
+}
+.t1{
+    text-align: center;
+    font-family: 'Edu SA Beginner', cursive;
+    color: #190482;
+}
+.t2{
+    color: #940B92;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.t3{
+    color: #C70039;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.t3 span{
+    font-size: 30px;
+    font-family: 'Sacramento', cursive;
+}
+.t4{
+    font-family: 'Offside', sans-serif;
+    color: #0802A3;
+}
+.t2,.t3,.t4,.btn{
+    padding-left: 50px;
+}
+.btn a{
+    padding: 10px 30px;
+    background-color: #016A70;
+    color: #ffff;
+    border-radius: 40px;
+    margin: 0 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

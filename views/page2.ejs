@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPDATE BLOG</title>
+    <link rel="stylesheet"  href="/styles/page2style.css">
+</head>
+<body>
+    <form id="newpost" action="/update/post/<%= post.id %>" method="post">
+        <h1 class="postdetails">UPDATE POST</h1>
+        <label for="sports">Title :</label>
+        <input class="int1" type="text" name="sports" value="<%= post.sports %>">
+        <label for="player">Content :</label>
+        <input class="int2"  type="text" name="player" value="<%= post.player %>">
+        <label for="playername">Author :</label>
+        <input class="int3"  type="text" name="playername" value="<%= post.playername %>">
+        <div class="buttons"><button class="btn" type="submit">submit</button></div>
+    </form>
+    
+</body>
+</html>

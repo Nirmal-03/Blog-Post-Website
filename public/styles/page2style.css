@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+SA+Beginner:wght@700&family=Lilita+One&family=Offside&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Sacramento&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #C5DFF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postdetails{
+    padding: 20px 0;
+    text-align: center;
+    color: #070A52;
+}
+#newpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: fit-content;
+    padding: 40px 100px;
+    background-color: #9681EB;
+}
+label{
+    font-size: 30px;
+    color: #ffff;
+    font-family: 'Edu SA Beginner', cursive;
+}
+input{
+    font-size: 20px;
+    color: #0D1282;
+    font-family: 'Poppins', sans-serif;
+}
+.int2{
+    margin: 40px 0;
+    padding: 50px 0;
+    overflow-x: scroll;
+    font-size: 16px;
+}
+.int1,.int3{
+    margin: 40px 0;
+    padding: 20px 0;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-family: 'Sacramento', cursive;
+    background-color: #1B9C85;
+    color: #ffff;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

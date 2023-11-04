@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <h1 id="title">Blog Post</h1>
+    <div class="create"><a href="/new/post">CREATE POST</a></div>
+    <% posts.forEach((post)=>{ %>
+        <div class="container">
+            <h1 class="t1"><%= post.sports %></h1>
+            <h2 class="t2"><%= post.player %></h2>
+            <h4 class="t3">This Blog Written By: <span><%= post.playername %></span></h4>
+            <p class="t4"><%= post.date %></p>
+            <div class="btn">
+                <a href="/edit/post/<%= post.id %>">Update</a>
+                <a href="/delete/<%= post.id %>">Delete</a>
+            </div>
+        </div>
+    <% }) %>
+</body>
+</html>
